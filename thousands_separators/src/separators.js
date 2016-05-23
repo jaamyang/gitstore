@@ -16,9 +16,5 @@ function thousands_separators(num) {
       return num.replace(reg,',');
     }
 }
-console.log(format('100'));
-console.log(format('1000'));
-console.log(format(1000000));
-console.log(format(1000.0));
-console.log(format('100.2342'));
+
 module.exports = thousands_separators;
